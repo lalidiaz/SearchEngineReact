@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+
+.cardWrapper{
+    font-family: 'Open Sans', sans-serif;
+    color:black;
+    font-size:12px;
+    width:25%;
+    height: 250px;
+    text-align: center;
+    background-color: white;
+    padding:20px;
+    margin:10px;
+    border-radius: 5px;
+    
+    
+}
+
+.textoTitle{
+    background-color: white;
+    color:#bdbdbd;
+    padding-bottom: 5px;
+
+}
+
+.textoPrice{
+    width: 70%;
+    display: inline-block;
+    justify-content: center;
+    color:#FAFAFA;
+    border-radius: 5px;
+    padding:10px;
+    
+}
