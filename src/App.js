@@ -27,7 +27,7 @@ class App extends React.Component {
 
    async handleClick(){
     const searchValue = this.state.inputValue   
-    const getCarouselData = await fetch(`https://api.mercadolibre.com/sites/MLA/search?q=${searchValue}&limit=8`)
+    const getCarouselData = await fetch(`https://api.mercadolibre.com/sites/MLA/search?q=${searchValue}&limit=9`)
     const getCarouselDataJson = await getCarouselData.json()
     
     console.log(getCarouselDataJson);

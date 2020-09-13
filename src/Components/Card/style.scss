@@ -1,50 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
 
+.cardWrapper {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-size: 12px;
+  width: 25%;
+  height: 250px;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
 
-.cardWrapper{
-    font-family: 'Open Sans', sans-serif;
-    color:black;
-    font-size:12px;
-    width:25%;
-    height: 250px;
-    text-align: center;
-    background-color: white;
-    padding:20px;
-    margin:10px;
-    border-radius: 5px;
-    
+  @media (min-width: 320px) and (max-width: 568px) {
+    width: 100%;
+  }
 
-    @media (min-width: 320px) and (max-width: 568px) {
-        width:100%;
+  @media (min-width: 375px) and (max-width: 667px) {
+    width: 100%;
+  }
 
-    }
-
-    @media (min-width: 375px) and (max-width: 667px) {
-        width:100%;
-    }
-    
-
-    @media (min-width: 768px) and (max-width: 1024px) {
-       justify-content: center;
-        display: flex;
-        flex-wrap: wrap;
-        
-    }
-}
-
-.textoTitle{
-    background-color: white;
-    color:#bdbdbd;
-    padding-bottom: 5px;
-
-}
-
-.textoPrice{
-    width: 70%;
-    display: inline-block;
+  @media (min-width: 768px) and (max-width: 1024px) {
     justify-content: center;
-    color:#FAFAFA;
-    border-radius: 5px;
-    padding:10px;
-    
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.textoTitle {
+  background-color: white;
+  color: #bdbdbd;
+  padding-bottom: 5px;
+}
+
+.textoPrice {
+  width: 70%;
+  display: inline-block;
+  justify-content: center;
+  color: #fafafa;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+img {
+  width: 100px;
 }

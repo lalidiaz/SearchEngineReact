@@ -17,8 +17,6 @@ class InnerCarousel extends React.Component {
                     )   
                     
                 })}
-
-
             </div>
         )
     }
